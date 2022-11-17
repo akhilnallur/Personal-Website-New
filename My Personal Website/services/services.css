@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url("../assets/images/Services\ \ BG.jpg");
+}
+
+.services{
+    width: 70%;
+    height: 200px;
+    background: lightgreen;
+}

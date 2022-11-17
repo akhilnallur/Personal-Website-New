@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+
+header {
+    height: 100px;
+    width: 100%;
+}
+
+header nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+nav .navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto 20px auto;
+}
+
+.navbar .logo {
+    height: 80px;
+    width: 150px;
+}
+
+.navbar .logo img {
+    height: 100%;
+    width: 100%;
+    min-width: 1rem;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.menu li a {
+    font-size: 17px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    color: #000;
+}
+
+.menu-item.active {
+    color: #0575E6;
+}
+
+.navbar .search-box {
+    position: relative;
+    height: 50px;
+    width: 200px;
+}
+
+.search-box input[type="text"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: #2c3e50;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #2c3e50;
+    border-radius: 8px;
+    padding: 0 10px 0 40px;
+}
+
+.search-box a {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #2c3e50;
+    padding: 0 5px 0 0;
+    border-right: 2px solid #2c3e50;
+}

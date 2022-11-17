@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../images/latest\ BG.jpg");
+}
+
+#projectsSec{
+    margin-top: 3rem;
+}
+
+#projectsSec h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.projects{
+    width: 100%;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    /* background: lightblue; */
+}
+
+.slide-container{
+    max-width: 1220px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slide-content{
+    margin: 0 60px;
+    overflow: hidden;
+}
+
+.card{
+    border-radius: 20px;
+    background-color: #FFF;
+}
+
+.card-img{
+    transition: all 0.3s ease;
+}
+
+.card:hover .card-img{
+    transform: scale(1.03);
+}
+
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.card-content{
+    margin-top: 20px;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 15px 0;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #00F260 10%, #0575E6 100%);
+    border-radius: 20px 20px 0 20px;
+}
+
+.overlay::before,
+.overlay::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #0575E6;
+}
+
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+    border-left: 2px solid #fff;
+}
+
+.card-image{
+    position: relative;
+    height: 270px;
+    width: 95%;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 4px solid #fff;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description{
+    height: ;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #0575E6;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    background-color: #3d61c4;
+}
+
+.swiper-Btn::before,
+.swiper-Btn::after{
+    color: #0575E6;
+}
